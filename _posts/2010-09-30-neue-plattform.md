@@ -18,5 +18,5 @@ Inzwischen gibt es seit einiger Zein in meinem Haus keinen FreeBSD basierten DSL
 
 Und weil ich doch alles in allem vor allem Programmierer bin, hoste ich meien Homepage ab jetzt auf Github. Das ist einfach, billig un unkopliziert. Mit dem [Github Pages](http://pages.github.com/) Feature, kann ich meine Blogposts wie Programmcode verwalten und das gefuallt mir.
 
-[^oeko]: Zumindest wenn man ökologische Faktoren ausser acht lässt.
+[^oeko]: Zumindest wenn man ökologische Faktoren ausser Acht lässt.
 
