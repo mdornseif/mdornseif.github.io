@@ -14,11 +14,13 @@ They are terrific for building things and while it is an urban legend that “it
 
 ![container](http://static.23.nu/md/Pictures/allimpossible.jpg)
 
-<strong>Things you can't do with shipping Containers</strong>
+### Things you can't do with shipping Containers
 
-<img src="http://static.23.nu/md/Pictures/crossstack.jpg" alt="" width="240" align="right">All these great features come with a bunch of restrictions. Containers come with 8 <a href="http://krisryinc.com/cornercasting/blr20100blr20000.html">Corner Casings</a> which are the only points where a Shipping Container is meant to be anchored. This makes a container can only rest on it's 4 bottom Corners and can only support loads from above on it's 4 top corners.
+<img src="http://static.23.nu/md/Pictures/crossstack.jpg" alt="" width="240" align="right">All these great features come with a bunch of restrictions. Containers come with 8 [Corner Casings][4] which are the only points where a Shipping Container is meant to be anchored. This makes a container can only rest on it's 4 bottom Corners and can only support loads from above on it's 4 top corners.
 
-<img src="http://static.23.nu/md/Pictures/smallonbig.jpg" alt="" width="240" align="right">Everything else on a container is <b>not</b> meant to carry any significant load.
+[4]: http://krisryinc.com/cornercasting/blr20100blr20000.html
+
+<img src="http://static.23.nu/md/Pictures/smallonbig.jpg" alt="" width="240" align="right">Everything else on a container is **not** meant to carry any significant load.
 
 This meant you can only stack containers in configurations where all for bottom corner casings of the upper container are supported by four top corner casings of lower containers.
 

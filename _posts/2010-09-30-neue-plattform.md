@@ -6,7 +6,7 @@ title: Zeit die Plattform zu wechseln
 {{ page.title }}
 ================
 
-<p class="meta">30 September 2010 - San Francisco</p>
+<p class="meta">30 September 2010 - Radevormwald</p>
 
 Ich betreibe seit etwa 14 Jahren einen "eigenen" Server im Internet, auf dem auch "immer schon" meine Hompage gehostet war. Unten auf meiner Homepage steht "Created: Thu Aug 19 21:17:05 CEST 1997". Ich habe in der zwischenzeit vieleicht ein halbes dutzend CMS/blog systeme ausprobiert und vielleicht auch ein halbes duzend selber geschrieben. Von zweien der Projekte, [TVluserland](http://github.com/mdornseif/TvLuserland) und [Mutantville](http://github.com/mdornseif/mutantville) hat sich sogar noch der Quellcode gefunden. Aber Zeiten ändern sich.
 
