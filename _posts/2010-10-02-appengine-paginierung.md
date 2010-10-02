@@ -26,7 +26,7 @@ Aber selbst das macht oft keinen Sinn. In vielen Zusammenhängen ist die Zahl "v
 
 Unser aktuelles Beispiel sind Rechungen eines Kunden. Wenn der Kunde ein guter und langjärigre Kunde ist, dann reichen seine Rechungen ja auch sehr weit (90 Jahre, wenn auch nicht komplett elektronisch verfügbar) zurück. Was aber vor allem Interessiert, sind die letzten Rechungen. Warum also Resourcen darein investieren, herauszufinden, wie viel Rechungen insgesammt für einen im System sind? Das interessiert in der regel nicht. Hier reicht ganz klar eine Funktion um "ältere Rechungen" anzuzeigen.
 
-![vor und zurueck](images/zurueck_vor.png)
+![vor und zurueck](/images/zurueck_vor.png)
 
 Das Userinterface hat weniger potentiell verwirrende Elemente und man bruacht weniger Rechenzeit.
 
