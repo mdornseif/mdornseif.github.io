@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Paginierung auf Appengine
+title: Paginierung auf AppEngine
 ---
 
 {{ page.title }}
