@@ -12,23 +12,27 @@ The <a href="http://en.wikipedia.org/wiki/Intermodal_freight_shipping_container"
 
 They are terrific for building things and while it is an urban legend that “it’s cheaper to scrap them then to send them back to Asia” (hint: the ships have to drive back to Asia anyway) new containers are produced in China or Korea and used containers are cheap and easy to get in Europe and the US.
 
-![container](http://static.23.nu/md/Pictures/allimpossible.jpg)
+<img src="http://static.23.nu/md/Pictures/allimpossible.jpg" alt="" width="600">
 
 ### Things you can't do with shipping Containers
 
-<img src="http://static.23.nu/md/Pictures/crossstack.jpg" alt="" width="240" align="right">All these great features come with a bunch of restrictions. Containers come with 8 [Corner Casings][4] which are the only points where a Shipping Container is meant to be anchored. This makes a container can only rest on it's 4 bottom Corners and can only support loads from above on it's 4 top corners.
+<img src="http://static.23.nu/md/Pictures/crossstack.jpg" alt="" width="240" align="right">
+All these great features come with a bunch of restrictions. Containers come with 8 [Corner Casings][4] which are the only points where a Shipping Container is meant to be anchored. This makes a container can only rest on it's 4 bottom Corners and can only support loads from above on it's 4 top corners.
 
 [4]: http://krisryinc.com/cornercasting/blr20100blr20000.html
 
-<img src="http://static.23.nu/md/Pictures/smallonbig.jpg" alt="" width="240" align="right">Everything else on a container is **not** meant to carry any significant load.
+<img src="http://static.23.nu/md/Pictures/smallonbig.jpg" alt="" width="240" align="right">
+Everything else on a container is **not** meant to carry any significant load.
 
 This meant you can only stack containers in configurations where all for bottom corner casings of the upper container are supported by four top corner casings of lower containers.
 
-<img src="http://static.23.nu/md/Pictures/2smallonbig.jpg" alt="" width="240" align="right">This results in many desirable stacking configurations being impossible from a stability standpoint. See for examples on the right.
+<img src="http://static.23.nu/md/Pictures/2smallonbig.jpg" alt="" width="240" align="right">
+This results in many desirable stacking configurations being impossible from a stability standpoint. See for examples on the right.
 
 Nearly all configurations where the upper container is rotated by 90 degrees are impossible. Putting 20″ on 40″ containers is in most cases impossible.
 
-<img src="http://static.23.nu/md/Pictures/bigonsmall.jpg" alt="" width="240" align="right">Putting a 40″ on a single 20″ container is impossible. Most overhang configurations are impossible.
+<img src="http://static.23.nu/md/Pictures/bigonsmall.jpg" alt="" width="240" align="right">
+Putting a 40″ on a single 20″ container is impossible. Most overhang configurations are impossible.
 
 Now you know the reason why there is so <a href="http://www.flickr.com/photos/leidorf/2576865335/">little</a> <a href="http://www.flickr.com/photos/33027180@N00/2145648673/">creativity</a> in <a href="http://www.flickr.com/photos/leidorf/2731680927/">professional</a> <a href="http://www.flickr.com/photos/38992637@N02/3865035069/">Container</a> <a href="http://www.flickr.com/photos/bcnbits/2859509269/sizes/o/">Stacking</a>.
 
@@ -43,7 +47,8 @@ While the floors of a Container are meant to carry loads from more than a ton pe
 
 Walking on the Roof for a single person is slightly uncomfortable and for a group it is something in-between scary and dangerous. The high quality steel sheeting of the roof will not break but the whole thing is very shaky.
 
-<a href="http://www.flickr.com/photos/mdornseif/4352951585/"><img src="http://static.23.nu/md/Pictures/ZZ2298580D.jpg" alt="" align="right"></a>Also the roofs of pre-owned containers are usually not flat anymore. Being the most fragile part of the structure they have a tendency to bent and get into a wobbly state.
+<a href="http://www.flickr.com/photos/mdornseif/4352951585/"><img src="http://static.23.nu/md/Pictures/ZZ2298580D.jpg" alt="" align="right"></a>
+Also the roofs of pre-owned containers are usually not flat anymore. Being the most fragile part of the structure they have a tendency to bent and get into a wobbly state.
 
 So if you plan to walk regularly on them you need to put additional flooring on top of the containers to distribute the load and stiffen the floor. We used two layers of 1 cm plywood which is fine, but still the walking experience is not totally solid.
 
@@ -54,14 +59,16 @@ If you plan to put heavier loads on the roofs you probably need to discuss this 
 
 You might or might not be aware, that steel on steel usually results in an excellent plate bearing. Meaning that <a href="http://www.flickr.com/photos/mdornseif/4353407484/in/photostream/">Corner Casings</a> on top of each other result in astonishing easy movability of the upper container. As in “Slam the door and it falls nearly down”. Even a pice of carton between the corner casings helps somewhat. But on the long run you need to fix your containers onto each other.
 
-<img src="http://static.23.nu/md/Pictures/containerschloesser.jpg" alt="" align="right">So it’t imperative that you fix the upper container to the lower containers. The best way is to use <a href="http://commons.wikimedia.org/wiki/Category:Twistlocks"> Twistlocks</a> as the Pros do. Marine grade Twistlocks can secure a stack of 4 fully loaded containers on a rolling ship without additional help. (Usually contianers are stacked 6-8 levels high, which results in the need for additional securing. We bought our Twistlocks at <a href="http://www.wader-mcp.de/">Willi Wader Group</a>.
+<img src="http://static.23.nu/md/Pictures/containerschloesser.jpg" alt="" align="right">
+So it’t imperative that you fix the upper container to the lower containers. The best way is to use <a href="http://commons.wikimedia.org/wiki/Category:Twistlocks"> Twistlocks</a> as the Pros do. Marine grade Twistlocks can secure a stack of 4 fully loaded containers on a rolling ship without additional help. (Usually contianers are stacked 6-8 levels high, which results in the need for additional securing. We bought our Twistlocks at <a href="http://www.wader-mcp.de/">Willi Wader Group</a>.
 
 You might be tempted to save the expense of twistlocks (15-30 € per lock) and instead screw or weld the containers together. But keep in might that the twistlocks are mass produced to rigid quality standards – while it is hard to assess the integrity of your home grown connection approach.
 
 
 ### Doors
 
-<img src="http://static.23.nu/md/Pictures/IMG_7051.jpg" alt="" align="left">Doors of shipping containers are hard to open by design. Even on a brand new container you have to operate two handles with considerable strength at once and at different speeds to open and close a container. And you can not open the left dor unless the right door is already open (although you might bee able to change that with a welding touch, a knife and in 20 minutes).
+<img src="http://static.23.nu/md/Pictures/IMG_7051.jpg" alt="" align="left">
+Doors of shipping containers are hard to open by design. Even on a brand new container you have to operate two handles with considerable strength at once and at different speeds to open and close a container. And you can not open the left dor unless the right door is already open (although you might bee able to change that with a welding touch, a knife and in 20 minutes).
 
 On a pre-owned container being 10 years or so old it is usually much harder to operate the doors because the frame of the door and the container itself is always bent to a certain degree. These doors can not replace a normal door if you are planning to pass it several times a day.
 
@@ -78,7 +85,8 @@ If you spot something with big openings it is no shipping container. Or it is a 
 
 Even if you leave the door open the container is less sturdy than one wit a closed door. Most containers seem to be able to withstand removing the back wall opposite to the door I wouldn’t like to have any load on such a container.
 
-<img src="http://static.23.nu/md/Pictures/hudora161209_4.jpg" alt="" align="right">We opted for <a href="http://www.flickr.com/photos/mdornseif/4353817619/">leaving about 30 cm on the top and about 15 cm at the sides</a> to keep some reinforcement. But in our application we are quite sure that there are only minimal shear forces. I would not feel comfortable in removing the back walls in any container which would have to carry substantial load.
+<img src="http://static.23.nu/md/Pictures/hudora161209_4.jpg" alt="" align="right">
+We opted for [leaving about 30 cm on the top and about 15 cm at the sides](http://www.flickr.com/photos/mdornseif/4353817619/) to keep some reinforcement. But in our application we are quite sure that there are only minimal shear forces. I would not feel comfortable in removing the back walls in any container which would have to carry substantial load.
 
 If you remove one of the longer walls your container is toast. Or at least it has as much integrity as toast. We <a href="http://www.flickr.com/photos/mdornseif/4354531158/">removed a complete wall</a> of a container and found out that the container lost all stability.
 

@@ -16,7 +16,7 @@ Nichts des do trotz hat sich blättern als das Tool der Wahl zum Darstellen und 
 
 ![Paginierung mit zu vielen Seiten](/images/pagination_130.png)
 
-Als Visuelles Element der Paginierung hat sich am Ende der Seite ein _Vor-Button_ und ein _Zurück-Button_ etabliert. Gerne wird auch noch für jede Seite, auf die geblättert werden kann, ein direkter Link angezeigt. Das führt aber oft zu Grotesken und wenig hilfreichen Ergebnissen, wir oben gezeigt. Bei drei oder vier Seiten mögen diese Direktlinks noch Sinn machen, aber bei duzenden von SEiten, reicht mir eigentlich die Information, dass es _sehr viele_ Seiten gibt. Davon eine direkt anzuspringen, macht selten Sinn.
+Als Visuelles Element der Paginierung hat sich am Ende der Seite ein _Vor-Button_ und ein _Zurück-Button_ etabliert. Gerne wird auch noch für jede Seite, auf die geblättert werden kann, ein direkter Link angezeigt. Das führt aber oft zu Grotesken und wenig hilfreichen Ergebnissen, wir oben gezeigt. Bei drei oder vier Seiten mögen diese Direktlinks noch Sinn machen, aber bei duzenden von Seiten, reicht mir eigentlich die Information, dass es _sehr viele_ Seiten gibt. Davon eine direkt anzuspringen, macht selten Sinn.
 
 Die Lösung bei vielen Webdesigns ist es, nur Direktlinks für die ersten zehn Seiten anzuzuegen.
 
@@ -42,7 +42,7 @@ Im folgenden ein "Controller-" und ein HTML Schnipsel, wie man das Ganze auf der
 
 Wir akzeptieren beim Aufruf der Seite die Parameter `start`, `count`, deren Bedeutung klar sein sollte: Was ist der erste Datensatz den wir darstellen udn wie viele sollen dargestellt werden. Die Appengine Funktion `get_range()` sorgt dafür, das unsere Nutzer nicht irgendwelche wilden Traumwerte übergeben können.
 
-Nun holen wir uns einen Datensatz mehr, als vom user Verlangt wurde. So können wir feststellen, ob noch weiter eDatensätze folgen, ohne eine zweite Query machen zu müssen. In `more_objects` und `prev_objects` wird gespeichert, ob man vor- und rückwärts blättern kann und `next_start` sowie `prev_start` geben an, wie der `start` PArameter für die nächte und die vorherige Seite sein muß.
+Nun holen wir uns einen Datensatz mehr, als vom user Verlangt wurde. So können wir feststellen, ob noch weiter eDatensätze folgen, ohne eine zweite Query machen zu müssen. In `more_objects` und `prev_objects` wird gespeichert, ob man vor- und rückwärts blättern kann und `next_start` sowie `prev_start` geben an, wie der `start` Parameter für die nächte und die vorherige Seite sein muß.
 
 <script src="http://gist.github.com/607757.js"> </script>
 
