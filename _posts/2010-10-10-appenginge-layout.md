@@ -19,7 +19,7 @@ Datei Layout
 
 Die erste Entscheidung war, alle Abhängigkeiten, an denen ich aktiv mitentwickle als [git submodule][4] in `lib` zu packen. Das hat vielerlei Vorteile: Git Submodles referenzieren eine spezifische Revision und werden im Gegensatz zu [svn:externals][5] nicht automatisch geupdated. Das bedeutet, solange ich als Entwickler nicht aktiv eine externe Library update bin ich vor Überraschungen sicher. Es bedeutet auch, dass die Operations Abteilung problemlos genau den gleichen Software Stand für ein deployment erzeugen kann, wie ich als Entwickler auf meinem System habe.
 
-Ein weiterer Vorteil ist, das pip mir versehentlich Änderungen im "editable Checkout" überschreibt oder ich vergesse, eine Änderung zu submitten: Bei Submodulen reicht ein `git status` im Toplevel-Projekt um auch f¨ru die Submodule mitzubekommen, ob dort was uncomittetes liegt.
+Ein weiterer Vorteil ist, das pip mir versehentlich Änderungen im "editable Checkout" überschreibt oder ich vergesse, eine Änderung zu submitten: Bei Submodulen reicht ein `git status` im Toplevel-Projekt um auch für die Submodule mitzubekommen, ob dort was uncomittetes liegt.
 
     $ git status
     #	modified:   lib/DeadTrees (new commits)
@@ -38,7 +38,7 @@ Per Makefile erzeuge ich ein [virtualenv][6], in das die Pakete mit pip hineien 
 
 <script src="http://gist.github.com/619112.js?file=Makefile"></script>
 
-Ich bin mir sicher, das man die erzeugung der git Submodule noch eleganter lösen kann, aber es klappt auch so.
+Ich bin mir sicher, das man die Erzeugung der git Submodule noch eleganter lösen kann, aber es klappt auch so.
 
 
 Applikationskonfiguration
@@ -62,6 +62,13 @@ Nun kann man einfach in jedem Modul der eigenen Applikation als erstes `config.p
 Zu guter Letzt sollte man noch dafür sorgen, dass bei einem Deployment all das Zubehör zu den Libraries nciht mit auf den Server geladen wird. Das kann in der `app.yaml` dann z.B. so aussehen:
 
 <script src="http://gist.github.com/619112.js?file=app.yaml"></script>
+
+
+Qualitätskontrolle
+------------------
+
+Das Makefile hat auch ein `check` target, das die gröbsten PRogrammierfehler aufzuspüren hilft. Damit die Codechecker wie gewünscht funktionieren, wird erst das Appengine SDK lokal installiert. Die nötingen Pfade werden von config.py erzeugt.
+
 
 [1]: http://de.wikipedia.org/wiki/Google_App_Engine
 [2]: http://en.wikipedia.org/wiki/Dependency_hell

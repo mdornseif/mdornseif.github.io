@@ -74,7 +74,7 @@ zusammenzufassen und damit erheblich effizienter zu arbeiten.
 
 ![MapReduce Status Screen](http://static.23.nu/md/Pictures/ZZ56D86E42.png)
 
-Das war's schon. Jetzt kann mn auf http://localhost:8000/mapreduce gehen und den Job `rechnungslistenupdate` starten. Je nach Datenmenge sollte die Bearbeitung einige Augenblicke bis einige Stunden dauern. Die Library unterteilt die Aufgabe in "Shards" und lässt diese jeweils über einen Deil der Daten laufen. 100 Datensätze pro Sekunde und 8 Shards sind die Default Parameter, die auf der "echten" AppEngine in PRoduktion auch gut Erzeiht werden können - damit ist man dann bei 800 Datens¨åtzen, die man pro sekunde Updaten kann - gar nciht so schlecht.
+Das war's schon. Jetzt kann mn auf http://localhost:8000/mapreduce gehen und den Job `rechnungslistenupdate` starten. Je nach Datenmenge sollte die Bearbeitung einige Augenblicke bis einige Stunden dauern. Die Library unterteilt die Aufgabe in "Shards" und lässt diese jeweils über einen Deil der Daten laufen. 100 Datensätze pro Sekunde und 8 Shards sind die Default Parameter, die auf der "echten" AppEngine in Produktion auch gut Erzeiht werden können - damit ist man dann bei 800 Datensätzen, die man pro sekunde Updaten kann - gar nciht so schlecht.
 
 ![MapReduce Job Display](http://static.23.nu/md/Pictures/ZZ13EFCF04.png)
 

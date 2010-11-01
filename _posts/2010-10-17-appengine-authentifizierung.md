@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Appengine Authentifizierung I
+title: Appengine Authentifizierung Teil I
 ---
 
 {{ page.title }}
 ================
 
-Moderne Authentifizierung sollte den Nutzern möglichst wenig Wissen um Accounts und Passwörter abverlangen. Es ist nicht nur unsicher, wenn Nutzer für verschiedene interne Applikationen verschiedene Nutzernamne und Passwörter wissen müssen, sondern auch unakzeptabel. Spuatestens bei einem Duzend Applikationen steigt keiner mehr durch, welche Zugangsdaten zu welchem System gehören und entweder wird überall das Gleiche Passwort verwendet oder es werden in jedes System solange alle Passwörter eingegeben, bis man "drin" ist.
+Moderne Authentifizierung sollte den Nutzern möglichst wenig Wissen um Accounts und Passwörter abverlangen. Es ist nicht nur unsicher, wenn Nutzer für verschiedene interne Applikationen verschiedene Nutzernamne und Passwörter wissen müssen, sondern auch unakzeptabel. Spätestens bei einem Duzend Applikationen steigt keiner mehr durch, welche Zugangsdaten zu welchem System gehören und entweder wird überall das Gleiche Passwort verwendet oder es werden in jedes System solange alle Passwörter eingegeben, bis man "drin" ist.
 
 Authentifizierung für AppEngine Applikationen ist mit den [`google.appengine.api.users` API][1] ungemein
 einfach zu implementieren, wenn man verlangt, dass jeder Nutzer einen Google Account hat. Alternativ kann der, der "Google Apps for your domain" nutzt, [gegen diese Accounts authentifizieren][2]. Seit kurzer Zeit unterstützt AppEngine auch [Federated Login][3] mit [OpenID][4]. Dass dumme ist, dass man diese Optionen nicht so ohne weiteres zusammen nutzen kann. Oh, und wenn man "Google Apps for your domain" als Authentifizierung gewählt hat, gibt es keine Möglichkeit, das nachträglich zu ändern.
