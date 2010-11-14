@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Schema Migration auf der Appengine
+title: Schema Migration auf der AppEngine
 ---
 
 {{ page.title }}
