@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Generating and Printing PDFs on Google App engine (en)
+title: Generating and Printing PDFs on Google AppEngine (en)
 ---
 
 {{ page.title }}
