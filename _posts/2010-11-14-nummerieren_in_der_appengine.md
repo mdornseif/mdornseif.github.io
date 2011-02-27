@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Duchtzählen auf auf der AppEngine
+title: Duchzählen auf auf der AppEngine
 ---
 
 {{ page.title }}
