@@ -156,6 +156,6 @@ Reviews sollten immer zeitnah erledigt werden. Insbesondere sollte man keine neu
 
 Der letzte Reviewer, mit dem der Code als “gut” befunden wird, merged dann mittels des “Submit Patch Set” Button. Gerrit befördert den Code dann selbständig auf GitHub.
 
-
+![Code-Tree](http://static.23.nu/md/Pictures/ZZ59198DE8.png)
 
 Mehr zum Thema gibt es in der [Gerrit Dokumentation](http://gerrit.googlecode.com/svn/documentation/2.1.6/user-upload.html#), [Working with Gerrit](http://avogadro.openmolecules.net/wiki/Working_with_Gerrit), [Code Review with Gerrit, a mostly visual guide](http://unethicalblogger.com/node/241) (wohl ein [ehr untypischer Workflow](http://groups.google.com/group/repo-discuss/msg/d43ba0bb0b74daca)), [Hacker news: unhappy with gerrit](http://apps.ycombinator.com/item?id=2206785), [Gerrit: Google-style code review meets git](http://lwn.net/Articles/359489/), [Submitting to WebM](http://www.webmproject.org/code/contribute/submitting-patches/), [EGit Contributer Guide](http://wiki.eclipse.org/EGit/Contributor_Guide#Gerrit_Code_Review_Cheatsheet), [Wikibook Gerrit Code Review](http://en.wikibooks.org/wiki/Git/Gerrit_Code_Review).
