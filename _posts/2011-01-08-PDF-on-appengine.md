@@ -12,7 +12,7 @@ I like to share our story on how we handle PDF generation and Printing on GAE. P
 
 We are a german sporting goods manufacturer. Our wholesale division is processing and shipping a few hundred
 thousand orderlines per year ranging from a small package up to truckloads of the same product. We run a
-rather diverse infrastructure starting with IBM Midrange Systems (AS/400) and - till 2010 - ending eith
+rather diverse infrastructure starting with IBM Midrange Systems (AS/400) and - till 2010 - ending with
 Amazon and Rackspace Cloud offerings. Most newer Software we have developed is based on Django. We have been aware of Google AppEngine but ignored it, because it was "beta" and seemed to see not much comittment by Google. The anouncement of GAE for Buiseness changed that - although the pricing model is not very attractive to us. But ist shows that Google Inc. is willing to see GAE Developers as their customer and not their Product.
 
 Generally we have been looking for PAAS offerings. We are able to build much more complex things than we are

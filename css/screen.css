@@ -59,6 +59,10 @@ table {
 /*
 /*****************************************************************************/
 
+ul {
+      text-align: left;
+}
+
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
@@ -73,6 +77,7 @@ ul.posts {
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
   }
+
 
 /*****************************************************************************/
 /*
