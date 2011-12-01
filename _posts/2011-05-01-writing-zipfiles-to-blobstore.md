@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Writing ZIP files to the Blobstore (english)
+title: Writing ZIP files to the Blobstore (en)
 ---
 
 {{ page.title }}
