@@ -163,7 +163,8 @@ In the simpelest form you can use it by just overwriting a single function. See 
             self.log_progress("Formating", step=33, total_steps=33)
             csvdata = reformat(vormonat)
             return csvdata
-    
+
+Get the `gae_longtask` [here at github][3].
 
 
 [1]: http://www.useit.com/papers/responsetime.html
