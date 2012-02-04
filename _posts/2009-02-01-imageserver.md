@@ -34,8 +34,9 @@ Da muss was besseres her. Anforderungen sind:
 
 Dabei rausgekommen ist der huDjango Imageserver, von dem ich einen Prototypen gebastelt habe.
 
-Erste Designentscheidung ist, dass Bilde ausschließlich über zufällige 160 Bit Nummern identifiziert werden. Wenn man ein Bild speichert, bekommt man einen ID zurück. Dass Bild kann dann nur noch mit diesem ID angesprochen werden. Wenn man den ID nicht weiss, ist das Bild &#8220;weg&#8221;. Vorteil davon ist, dass wir uns keine Gedanken um Passwortschutz etc. von internen Bildern machen müssen. Wer den ID nicht kennt, kommt nicht an das Bild.</p>
-<p>Zweite Designentscheidung: Man kann ein Bild nicht ändern. Alte Bilder bleiben im System, wenn man ein geändertes Bild hochläd, bekommt man einen neuen ID zurück. Das vereinfacht Caching enorm.
+Erste Designentscheidung ist, dass Bilde ausschließlich über zufällige 160 Bit Nummern identifiziert werden. Wenn man ein Bild speichert, bekommt man einen ID zurück. Dass Bild kann dann nur noch mit diesem ID angesprochen werden. Wenn man den ID nicht weiss, ist das Bild &#8220;weg&#8221;. Vorteil davon ist, dass wir uns keine Gedanken um Passwortschutz etc. von internen Bildern machen müssen. Wer den ID nicht kennt, kommt nicht an das Bild.
+
+Zweite Designentscheidung: Man kann ein Bild nicht ändern. Alte Bilder bleiben im System, wenn man ein geändertes Bild hochläd, bekommt man einen neuen ID zurück. Das vereinfacht Caching enorm.
 
 Dritte Desingentscheidung: wir speichern die Originalbilder in CouchDB.  Aufwand und nutzen stehen dabei in einer sinnvollen Relation.
 
