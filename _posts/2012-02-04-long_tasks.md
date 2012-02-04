@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Long running Tasks in Websites (en)
+title: Long running Tasks for Websites (en)
 ---
 
 {{ page.title }}
@@ -141,7 +141,8 @@ In the simpelest form you can use it by just overwriting a single function. See 
         def execute_task(self, parameters):
             monthlast = date.today() - timedelta(days=datetime.date.today().day + 1)
             monthfirst = monthlast - timedelta(days=vormonatsletzter.day - 1)
-            self.log_progress("Calculating INTRASTAT Data %s to %s" % (monthlast, monthfirst),
+            self.log_progress("Calculating INTRASTAT Data %s to %s"
+                              % (monthlast, monthfirst),
                               step=0, total_steps=33)
             count = 0
             days = []
