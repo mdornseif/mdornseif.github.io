@@ -164,6 +164,11 @@ In the simpelest form you can use it by just overwriting a single function. See 
             csvdata = reformat(vormonat)
             return csvdata
 
+    def display_result(self, paramters, result):
+        self.response.headers['Content-Type'] = 'text/plain'
+        self.response.write(result)
+
+
 Get the `gae_longtask` [here at github][3].
 
 

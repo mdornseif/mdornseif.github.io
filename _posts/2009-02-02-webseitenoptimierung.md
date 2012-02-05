@@ -1,4 +1,10 @@
-<h2 class="entry-title">Webseitenoptimierung</h2>
+---
+layout: post
+title: Webseitenoptimierung (en)
+---
+
+{{ page.title }}
+================
 
 Nachdem wir Ende letzter Woche einen mächtigen Performance Einbruch unseres Webservers hatten, hab ich mir mal etwas detailliertere Gedanken über die Geschwindigkeit unserer Webseite gemacht.
 
