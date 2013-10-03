@@ -22,7 +22,7 @@ Also irgendwas einfaches HTTP-basiertes als Altrnative. Aber was? Eine Nachfrage
 Frugal Message Trasfer Protocol (FMTP)
 --------------------------------------
 
-FMTP dient dem zuverlässigen, Austausch von Nachrichten per HTTP nach REST Prinzipien. Nachrichten können im Push (sendend), oder Pull (empfangend) Modus transportiert werden. Für den Tansfer einer Nachrichtenart vone einem Sender an einem Empfänger wird ein Endpunkt definiert, der mit einer Queue in einer [MOM][13] vergleichbar ist. In den Folgenden Beispielen wird der Endpunkt `https://example.com/q` verwendet. Nachrichten sollten einen eindeutigen Bezeichner haben, der pro Endpunkt nur einmal vorkommen darf. Wenn das sendene System keine GUIDs erzeugen kann, können auch andere eindeutige bezeichner, wie Rechungsnummer etc verwendet werden. GUIDs sollten mit dem Regular Expression `/[a-zA-Z0-9_-]+/ matchen.
+FMTP dient dem zuverlässigen, Austausch von Nachrichten per HTTP nach REST Prinzipien. Nachrichten können im Push (sendend), oder Pull (empfangend) Modus transportiert werden. Für den Tansfer einer Nachrichtenart vone einem Sender an einem Empfänger wird ein Endpunkt definiert, der mit einer Queue in einer [MOM][13] vergleichbar ist. In den Folgenden Beispielen wird der Endpunkt `https://example.com/q` verwendet. Nachrichten sollten einen eindeutigen Bezeichner haben, der pro Endpunkt nur einmal vorkommen darf. Wenn das sendene System keine GUIDs erzeugen kann, können auch andere eindeutige bezeichner, wie Rechungsnummer etc verwendet werden. GUIDs sollten mit dem Regular Expression `/[a-zA-Z0-9_-]+/` matchen.
 
 
 Daten Senden (Push)
@@ -33,13 +33,13 @@ Gesetzt eine Nachricht hat den GUID `guid`, den Inhalt `'content'` und den conte
     >>> POST https://example.com/q/guid
     >>> Host: example.com
     >>> Content-Type: application/json
-    >>> 
+    >>>
     >>> 'content'
 
 In der Regel antwortet der Server mit folgenden Nachrichten:
 
 * **201 Created** Die Nachricht wurde auf dem Server gespeichert
-* **409 Conflict** Es existiert bereits eine Nachricht mit dem gleichen GUID 
+* **409 Conflict** Es existiert bereits eine Nachricht mit dem gleichen GUID
 * **410 Gone** Es existierte bereits eine Nachricht mit dem gleichen GUID, die aber bereits verarbeitet/gelöscht wurde.
 
 
@@ -70,7 +70,7 @@ Aufgrund der Informationen in dieser Liste kann nun eine Nachricht abgerufen wer
 
     <<< 200 OK
     <<< Content-Type: application/json
-    <<< 
+    <<<
     <<< 'content'
 
 Der Content-Type ist der gleiche, der von dem Sender mitgegeben wurde. Wenn der Empfänger die Nachricht erfolgreich übernommen hat - z.B. indem er Sie in eine Datenbank geschrieben hat, muss er die Nachricht auf dem Server löschen. Das muss mit dem HTTP Befehl DELETE erfolgen.
@@ -90,7 +90,7 @@ Die Liste der bereitstehenden Nachrichten kann in verschiedenen Formaten abgeruf
     >>> GET https://example.com/q
     >>> Host: example.com
     >>> Acceppt: application/json
-    
+
     <<< 200 OK
     <<< Content-Type: application/json
     <<<
@@ -131,7 +131,7 @@ Alternativ kann die Nachrichtenliste als [Plain old XML][15] abgerufen werden:
 
 ### Retry-Interval
 
-Ein Empfänger muss immer wieder die Liste der bereitstehenden Nachrichten abrufen. Die frage ist, in welchen Intervallen nach neuen Nachrichten gefragt werden soll. Wird zu häufig gefragt, wird die automatisierte Denial-of-Service Detektion den Client zeitweise sperren und alle Anfragen mit `503 Service Unavailable` beantworten. 
+Ein Empfänger muss immer wieder die Liste der bereitstehenden Nachrichten abrufen. Die frage ist, in welchen Intervallen nach neuen Nachrichten gefragt werden soll. Wird zu häufig gefragt, wird die automatisierte Denial-of-Service Detektion den Client zeitweise sperren und alle Anfragen mit `503 Service Unavailable` beantworten.
 
 Deswegen empfiehlt es sich im Client [Exponential Backoff][16] zu implementieren. D.h. wenn keine neue Nachrichten gefunden wurden, sollte die Wartezeitbis zur nächsten Anfrage verdoppelt werden. Der Server liefert mit `min_retry_interval` und `max_retry_interval` Vorschläge, wie viele Millisekunden der Client minimal und maximal bis zur nächsten Anfrage warten soll.
 
