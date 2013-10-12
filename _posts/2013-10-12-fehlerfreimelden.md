@@ -3,7 +3,7 @@ layout: post
 title: Fehler fehlerfrei melden
 ---
 
-*Diesen Text habe ich 2006 oder so geschrieben, bruach ihn aber immer wieder:*
+*Diesen Text habe ich 2006 oder so geschrieben, brauch ihn aber immer wieder:*
 
 {{ page.title }}
 ================
