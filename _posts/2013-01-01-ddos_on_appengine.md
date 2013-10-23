@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to weather through DDos on AppEngine(en)
+title: How to weather through DDos on AppEngine (en)
 ---
 
 {{ page.title }}
