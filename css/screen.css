@@ -159,7 +159,10 @@ ul.posts {
 
 }
 
-  /* standard */
+  #post img {
+    max-width: 40em
+  }
+    /* standard */
 
   #post pre {
     border: 1px solid #ddd;
