@@ -8,7 +8,7 @@ title: Long running Tasks for Websites (en)
 
 Some reactions to user actions need more than a few seconds to compute. [Jakob Nielsen][1] for tasks over 10 seconds waiting time "users will want to perform other tasks while waiting for the computer to finish". He [as others][2] also states that an activity indication and an estimation of the total time to completion are important.
 
-AppEngine enforces the paradigm, that webpages have to respond within a few seconds with it's request deadline of 10 seconds (later lifted to 30 and then to 60 seconds).
+Google App Engine enforces the paradigm, that webpages have to respond within a few seconds with it's request deadline of 10 seconds (later lifted to 30 and then to 60 seconds).
 
 For an Web-Application an low latancy design for long computation means something like this:
 

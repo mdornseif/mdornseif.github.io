@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Google BigQuery on Google App Engine
+title: Google BigQuery on Google App Engine (en)
 ---
 
 {{ page.title }}

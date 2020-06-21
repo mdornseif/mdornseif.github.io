@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logging on Google App Engine Node.js Standard Environment
+title: Logging on Google App Engine Node.js Standard Environment (en)
 ---
 
 {{ page.title }}
