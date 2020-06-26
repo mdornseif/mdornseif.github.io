@@ -55,7 +55,7 @@ and a tool to process them into `ddos.yaml`.
 <script src="https://gist.github.com/mdornseif/6682539.js"></script>
 
 
-Unfortunately it turned out that while `ddos.yaml` has a limit of 1000 entries
+Unfortunately it turned out that while `ddos.yaml` has a limit of 100 entries
 we where attacked by far more hosts than 100. So the first step for us was top
 get the worst offenders. By downloading the logs from Google and doing some shell
 scripting this was easy:
@@ -81,7 +81,7 @@ You might read up on [CIDR](http://en.wikipedia.org/wiki/Classless_Inter-Domain_
 if you don't understand what the slashes mean. It turnt out that we
 where over-blocking.
 
-So wh had to to find a way to find the real network sizes of the offending
+So we had to to find a way to find the real network sizes of the offending
 networks. `whois 87.67.73.148 | grep -E 'inetnum|descr'` gave us the network size,
 e.g. `87.67.64.0 - 87.67.95.255`. If you can't convert that to CIDR notation
 by yourself, tools like [ip2cidr](http://ip2cidr.com/bulk-ip-to-cidr-converter.php)

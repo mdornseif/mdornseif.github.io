@@ -1,10 +1,8 @@
 ---
 layout: post
-title: Logging on Google App Engine Node.js Standard Environment (en)
 ---
 
-{{ page.title }}
-================
+# Logging on Google App Engine Node.js Standard Environment (en)
 
 [Google App Engine _Python_ Standard Environment](https://cloud.google.com/appengine/docs/standard/python) provides nice logging where all log entries related to a HTTP request are grouped. 
 For [Node.js](https://cloud.google.com/appengine/docs/standard/nodejs) stdout and stderr are collected in the log viewer but with out any grouping - on entry per line.

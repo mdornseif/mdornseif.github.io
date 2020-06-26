@@ -6,8 +6,6 @@ title: Struktur von AppEngine Applikationen
 {{ page.title }}
 ================
 
-<p class="meta">10 Oktober 2010 - Radevormwald</p>
-
 Ich habe nirgends überzeugende Beispiele dafür gefunden, wie man bei Applikationen für [Google Appengine][1]
 ein vernünftiges Verzeichnislayout gestaltet. Eine Applikation für AppEngine muss ja sicherstellen, das alle
 Abhängigkeiten automatisch hochgeladen werden. Da ich mit in den letzten Wochen vermehrt in der [Dependency Hell][2] wiederfand, sollten die benötigten Libraries bitte automatisch zusammengesucht werden.
@@ -67,7 +65,7 @@ Zu guter Letzt sollte man noch dafür sorgen, dass bei einem Deployment all das 
 Qualitätskontrolle
 ------------------
 
-Das Makefile hat auch ein `check` target, das die gröbsten PRogrammierfehler aufzuspüren hilft. Damit die Codechecker wie gewünscht funktionieren, wird erst das Appengine SDK lokal installiert. Die nötingen Pfade werden von config.py erzeugt.
+Das Makefile hat auch ein `check` target, das die gröbsten Programmierfehler aufzuspüren hilft. Damit die Codechecker wie gewünscht funktionieren, wird erst das Appengine SDK lokal installiert. Die nötingen Pfade werden von config.py erzeugt.
 
 
 [1]: http://de.wikipedia.org/wiki/Google_App_Engine
