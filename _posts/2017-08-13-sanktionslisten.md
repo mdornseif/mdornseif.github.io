@@ -2,7 +2,7 @@
 layout: post
 ---
 
-# Compliance: Sicherstellen, dass man Sanktionslisten beachtet.
+# Compliance: Sicherstellen, dass man UN Sanktionslisten beachtet.
 
 Als gewissenhafter Kaufmann ist man verpflichtet, _sehr_ viele Vorschriften zu beachten. 
 Zum Beispiel gibt es mannigfache _Sanktionslisten_ mit denen die EU, die UN und allerlei Regierungen verbieten mit bestimmten Personen, Gruppierungen und Staaten Geschäfte zu machen.
