@@ -1,4 +1,4 @@
-# Code Formatierung und Upgradibility mit pre-commity erzwingen in der Praxis
+# Code Formatierung und Upgradibility mit pre-commit erzwingen in der Praxis
 
 Wenn man mit mehreren Entwicklern an einem Projekt arbeitet, ist es sehr hilfreich sich auf einen /coding style/ zu einigen. Nicht nur aus ästhetischen Gründen, sondern auch, weil dadurch merges erheblich robuster werden.
 
